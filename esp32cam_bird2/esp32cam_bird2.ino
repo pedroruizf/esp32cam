@@ -12,16 +12,16 @@ const int PIRsensor = 12;
 int PIRstate = LOW; // we start, assuming no motion detected
 int val = 0;
 
-const char* ssid = "POCO X3";
-const char* password = "crg12345";
+const char* ssid = "xxxxxx";
+const char* password = "xxxxxxx";
 
 // Initialize Telegram BOT
-String BOTtoken = "7900978417:AAG3hBkxw0PXbfvmWZbjMNndBM9w1d-gvqY";  // your Bot Token (Get from Botfather)
+String BOTtoken = "xxxxxxxxxxxx";  // your Bot Token (Get from Botfather)
 
 // Use @myidbot to find out the chat ID of an individual or a group
 // Also note that you need to click "start" on a bot before it can
 // message you
-String CHAT_ID = "-4769817429";
+String CHAT_ID = "xxxxxxxxxxxx";
 
 bool sendPhoto = false;
 
